@@ -98,7 +98,7 @@ export default function PortfolioHero() {
               Find me on
             </span>
             <a
-              href="https://github.com"
+              href="https://github.com/e-gors"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 text-xs text-white/40 hover:text-white transition-colors"
@@ -106,7 +106,7 @@ export default function PortfolioHero() {
               <FaGithub className="w-3.5 h-3.5" /> GitHub
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/efren-goron-8b3ab4200/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 text-xs text-white/40 hover:text-white transition-colors"
@@ -114,7 +114,9 @@ export default function PortfolioHero() {
               <FaLinkedin className="w-3.5 h-3.5" /> LinkedIn
             </a>
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1jOKdnwYfNG31mXEoiPsMu5wzC5HVfhDk/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-1.5 text-xs text-white/40 hover:text-white transition-colors"
             >
               <FileText className="w-3.5 h-3.5" /> Resume
