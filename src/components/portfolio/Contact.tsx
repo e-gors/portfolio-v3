@@ -57,7 +57,7 @@ export default function Contact() {
                   Location
                 </span>
                 <span className="text-sm text-white/60">
-                  San Francisco, CA · Remote OK
+                  Hilongos, Leyte, Philippines · Remote OK
                 </span>
               </div>
               <div className="flex items-center gap-4">
