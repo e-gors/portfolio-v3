@@ -25,7 +25,7 @@ export default function PortfolioNav() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
-        <span className="font-bold text-white tracking-tight text-lg">ac.</span>
+        <span className="font-bold text-white tracking-tight text-lg">eg.</span>
         <div className="hidden md:flex items-center gap-0.5">
           {LINKS.map((l) => (
             <button
