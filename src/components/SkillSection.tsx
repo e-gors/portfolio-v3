@@ -59,11 +59,11 @@ const SKILLS: Skill[] = [
     level: "familiar",
     deps: ["PostgreSQL", "TypeScript", "REST APIs"],
   },
-  {
-    name: "Firebase",
-    level: "familiar",
-    deps: ["React", "JavaScript", "TypeScript"],
-  },
+  // {
+  //   name: "Firebase",
+  //   level: "familiar",
+  //   deps: ["React", "JavaScript", "TypeScript"],
+  // },
   {
     name: "PostgreSQL",
     level: "familiar",
