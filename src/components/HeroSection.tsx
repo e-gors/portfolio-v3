@@ -165,13 +165,6 @@ export default function HeroSection({ heroImage }: { heroImage: string }) {
             <ChevronDown className="w-4 h-4 group-hover:translate-y-0.5 transition-transform" />
           </button>
           <button
-            onClick={() => navigate("/portfolio")}
-            className="px-6 py-3 border border-border text-foreground font-mono text-sm rounded-lg hover:bg-muted/50 hover:border-primary/30 transition-all"
-            data-cursor-label="cta::view_portfolio"
-          >
-            VIEW_PORTFOLIO
-          </button>
-          <button
             onClick={() =>
               document
                 .getElementById("contact")
