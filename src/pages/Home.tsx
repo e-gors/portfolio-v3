@@ -6,15 +6,24 @@ import ProjectsSection from "../components/ProjectSection";
 import SkillsSection from "../components/SkillSection";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
+import PersonalPortfolio1 from "../assets/projects/Portfolio-v1.png";
+import PersonalPortfolio2 from "../assets/projects/Portfolio-v2.png";
+import PersonalPortfolio3 from "../assets/projects/Portfolio-v3.png";
+import ManilaFame from "../assets/projects/Manila-fame.png";
+import Lumiere from "../assets/projects/Lumiere.png";
+import LumiereAdmin from "../assets/projects/Lumiere-admin.png";
 
 const HERO_IMAGE =
   "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=80";
 const SKILLS_IMAGE =
   "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80";
 const PROJECT_IMAGES = [
-  "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
-  "https://images.unsplash.com/photo-1517430816045-df4b7de11d1f?auto=format&fit=crop&w=1200&q=80",
-  "https://images.unsplash.com/photo-1504805572947-34fad45aed93?auto=format&fit=crop&w=1200&q=80",
+  PersonalPortfolio1,
+  Lumiere,
+  LumiereAdmin,
+  ManilaFame,
+  PersonalPortfolio2,
+  PersonalPortfolio3,
 ];
 
 export default function Home() {
