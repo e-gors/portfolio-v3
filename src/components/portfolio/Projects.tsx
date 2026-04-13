@@ -20,6 +20,7 @@ const PROJECTS = [
     ],
     gradient: "from-sky-500/8 via-transparent to-transparent",
     accentLine: "bg-sky-500",
+    link: "https://eg-portfolio-v3.netlify.app/",
   },
   {
     num: "02",
@@ -37,6 +38,7 @@ const PROJECTS = [
     ],
     gradient: "from-fuchsia-500/8 via-transparent to-transparent",
     accentLine: "bg-fuchsia-500",
+    link: "https://lumiere-app-theta.vercel.app/",
   },
   {
     num: "03",
@@ -54,6 +56,7 @@ const PROJECTS = [
     ],
     gradient: "from-violet-500/8 via-transparent to-transparent",
     accentLine: "bg-violet-500",
+    link: "",
   },
   {
     num: "04",
@@ -64,6 +67,7 @@ const PROJECTS = [
     stack: ["Vite", "React", "TypeScript", "Tailwind CSS", "Netlify", "Git"],
     gradient: "from-cyan-500/8 via-transparent to-transparent",
     accentLine: "bg-cyan-500",
+    link: "https://manila-fame.netlify.app/",
   },
   {
     num: "05",
@@ -82,6 +86,7 @@ const PROJECTS = [
     ],
     gradient: "from-amber-500/8 via-transparent to-transparent",
     accentLine: "bg-amber-500",
+    link: "https://eg-portfolio-v3.netlify.app/portfolio",
   },
   {
     num: "06",
@@ -92,6 +97,7 @@ const PROJECTS = [
     stack: ["Vite", "React", "TypeScript", "Supabase", "Tailwind CSS", "Git"],
     gradient: "from-rose-500/8 via-transparent to-transparent",
     accentLine: "bg-rose-500",
+    link: "https://portfolio-v2-six-wheat.vercel.app/",
   },
 ];
 
@@ -175,7 +181,9 @@ export default function PortfolioProjects() {
 
                 {/* Arrow */}
                 <a
-                  href="#"
+                  href={p.link ?? "#"}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="shrink-0 w-12 h-12 rounded-2xl border border-white/8 flex items-center justify-center text-white/20 group-hover:border-white/20 group-hover:text-white/60 transition-all self-start md:self-center"
                 >
                   <ArrowUpRight className="w-5 h-5" />
