@@ -17,7 +17,7 @@ export default function Footer() {
             <p>BUILT WITH REACT + TAILWIND // DEPLOYED ON NETLIFY</p>
           </div>
           <div className="font-mono text-[10px] text-muted-foreground/40 text-center md:text-right space-y-1">
-            <p>BUILD_VERSION: 1.0.4</p>
+            <p>BUILD_VERSION: 1.0.1</p>
             <p>LAST_COMPILED: {new Date().toISOString().split("T")[0]}</p>
           </div>
         </motion.div>
