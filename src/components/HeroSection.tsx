@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import ScrambleText from "./ScrambleText";
 import { ChevronDown } from "lucide-react";
@@ -16,7 +15,6 @@ export default function HeroSection({ heroImage }: { heroImage: string }) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const mouseRef = useRef({ x: 0.5, y: 0.5 });
   const [loaded, setLoaded] = useState(false);
-  const navigate = useNavigate();
 
   useEffect(() => {
     setLoaded(true);
