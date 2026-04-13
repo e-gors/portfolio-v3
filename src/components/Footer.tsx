@@ -14,7 +14,7 @@ export default function Footer() {
         >
           <div className="font-mono text-[10px] text-muted-foreground/60 space-y-1 text-center md:text-left">
             <p>© {year} Efren Goron // ALL RIGHTS RESERVED</p>
-            <p>BUILT WITH REACT + TAILWIND // DEPLOYED ON VERCEL</p>
+            <p>BUILT WITH REACT + TAILWIND // DEPLOYED ON NETLIFY</p>
           </div>
           <div className="font-mono text-[10px] text-muted-foreground/40 text-center md:text-right space-y-1">
             <p>BUILD_VERSION: 1.0.4</p>
