@@ -82,7 +82,7 @@ export default function ProjectsSection({
       stack: ["Vite", "React", "TypeScript", "Tailwind CSS", "Netlify", "Git"],
       image: projectImages[3],
       github: "https://github.com/e-gors/manila-fame",
-      demo: "#",
+      demo: "https://manila-fame-feast.netlify.app/",
     },
     {
       title: "Personal Portfolio v2",
