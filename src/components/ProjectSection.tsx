@@ -26,7 +26,7 @@ export default function ProjectsSection({
       ],
       image: projectImages[0],
       github: "https://github.com/e-gors/portfolio-v2",
-      demo: "#",
+      demo: "https://portfolio-v2-six-wheat.vercel.app/",
     },
     {
       title: "Lumiere",
@@ -48,7 +48,7 @@ export default function ProjectsSection({
       ],
       image: projectImages[1],
       github: "https://github.com/e-gors/lumiere-app",
-      demo: "#",
+      demo: "https://lumiere-app-theta.vercel.app/",
     },
     // {
     //   title: "Lumiere Admin",
@@ -126,7 +126,7 @@ export default function ProjectsSection({
       ],
       image: projectImages[5],
       github: "https://github.com/e-gors/portfolio-v3",
-      demo: "#",
+      demo: "https://eg-portfolio-v3.netlify.app/portfolio",
     },
   ];
 
